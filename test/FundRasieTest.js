@@ -10,7 +10,7 @@ describe("createCampaign()", async function () {
         logoUrl: "logoUrl",
         bannerUrl: "bannerUrl",
         name: "Campaign 1",
-        description: "Description",
+        description: "Description", 
         industry: "Industry",
         videoUrl: "videoUrl",
         goal: ethers.utils.parseEther("1"), // goal in ether

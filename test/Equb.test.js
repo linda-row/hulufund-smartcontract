@@ -6,7 +6,7 @@ contract("Equb", accounts => {
     beforeEach(async () => {
         equb = await Equb.new();
     });
-
+ 
     it("should have no pools initially", async () => {
         const numberOfPools = await equb.numberOfPools();
         assert.equal(numberOfPools.toNumber(), 0, "Incorrect number of pools");
