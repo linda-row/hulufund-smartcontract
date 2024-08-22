@@ -19,4 +19,4 @@ module.exports = {
     DECIMALS,
     INITIAL_ANSWER
  
-}
+} 

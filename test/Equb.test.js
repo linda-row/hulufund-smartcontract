@@ -22,7 +22,7 @@ contract("Equb", accounts => {
         expect(numberOfPools.toNumber()).to.equal(1);
 
         // check the details of the pool
-        const pool = await equb.getPool(accounts[0]);
+        const pool = await equb.getPool(accounts[0]); 
         expect(pool.name).to.equal("Test Pool");
         expect(pool.members.length).to.equal(3);
     });

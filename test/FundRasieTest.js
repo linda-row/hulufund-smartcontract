@@ -23,7 +23,7 @@ describe("createCampaign()", async function () {
     beforeEach(async function () {
         // Get the contract instance using the contract address
         const contract = await ethers.getContractAt(
-            "RaiseFundContract",
+            "RaiseFundContract", 
             contractAddress
         );
         raiseFundContract = contract;
